@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* merubah kalkulus ukuran lebar */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(image.jpeg) 
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* form/search */
+.search{
+    width: 25%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background: #fff;
+    border: 2px solid #fff;
+    margin-top: 13px;
+    color: #000;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    /* ditambahkan garis disekitar elemen */
+    outline: none;
+}
+/* form/search */
+/* navigation/header  */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    padding: 0px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #333;
+}
+
+header .navbar ul{
+    list-style: none;
+}
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a{
+    font-size: 14px;
+    padding: 20px;
+    color: #333;
+    display: block;
+}
+
+header .navbar ul li a:hover{
+    background: #333;
+    color: #fff;
+    transition: 0.5s;
+}
+/* navigation/header  */
+/* content/menu utama */
+.content{
+    margin-left: 15%;
+    margin-top: 20%;
+}
+
+.content h1{
+    font-size: 50px;
+    color: rgb(141, 132, 132);
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+
+.content p{
+    color: #78bbf9;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.image{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.image img{
+    height: 70%;
+    position: absolute;
+    left: 60%;
+    top: 0px;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+/* content/menu utama */
+
+.contents{
+    background: #fff;
+    margin-top: 135px;
+    height: 600px;
+    border-bottom: 2px solid #000000;
+  }
+  
+.judul-contents{
+    color: #000000;
+    font-size: 30px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+
+}
+  
+.pelajaran{
+    float: left;
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-right: 10px;
+  }
+  
+
+  
+/* footer bawah sendiri */
+footer{
+    background: orangered;
+    height: auto;
+    width: 98.6vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400px;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 30px;
+    padding-left: 14px;
+    padding-left: 5px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: black;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
